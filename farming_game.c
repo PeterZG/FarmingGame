@@ -30,11 +30,10 @@ struct farmer {
 };
 
 
-// HINT: You will be using this function in stage 2!
+// HINT: Will be using this function in stage 2!
 void print_land(struct land farm_land[LAND_SIZE][LAND_SIZE], struct farmer cse_farmer);
 
 // Provided functions use for game setup
-// You do not need to use these functions yourself.
 struct farmer initialise_farmer(struct farmer cse_farmer);
 void initialise_seeds(struct seeds seed_collection[MAX_NUM_SEED_TYPES]);
 void initialise_land(struct land farm_land[LAND_SIZE][LAND_SIZE]);
@@ -79,8 +78,6 @@ int main(void) {
     
     // TODO: When you start stage 1.2, you will need to replace the below
     // with a loop that reads and executes commands until EOF.
-    // See: https://cs1511.web.cse.unsw.edu.au/short/21T3_a1_explain/
-    // for more information!
 
     char command;
     printf("Enter command: ");
@@ -97,6 +94,7 @@ int main(void) {
             }
             printf("Enter command: ");
         }
+
         //enter command 's' that print the unique seed that user enter
         if (command == 's') {
             char l;
