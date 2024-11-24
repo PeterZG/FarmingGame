@@ -1,6 +1,3 @@
-// CSE Valley
-// cse_valley.c
-//
 // 2021/10/15
 //
 // Version 1.0.0 (2021-10-04)
